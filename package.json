@@ -1,8 +1,8 @@
 {
-  "name": "quintendev",
+  "name": "quintenpeels",
   "version": "1.0.0",
-  "description": "My funkadelic Nuxt.js project",
-  "author": "Quintenps",
+  "description": "Personal portfolio website",
+  "author": "Quinten Peels",
   "private": true,
   "scripts": {
     "dev": "nuxt",
