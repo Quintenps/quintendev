@@ -1,19 +1,26 @@
-$primary-color: #525B56;
-$secondary-color: #132226;
-$third-color: #A4978E;
+$primary-color: #5aa2e4;
+$secondary-color: #292929;
+$third-color: #535353;
+$fourth-color: #eff3c6;
 $link: $third-color;
 
 body {
   font-family: 'Barlow', sans-serif;
 }
+
 .logo {
-  color: $secondary-color;
+  color: $primary-color;
   font-weight: 700;
 }
+
+h4 {
+  color: $secondary-color;
+}
+
 .line-block {
   display: block;
   width: 40px;
-  background-color: $primary-color;
+  background-color: $third-color;
   height: 2px;
   margin: 20px 0 20px;
 }

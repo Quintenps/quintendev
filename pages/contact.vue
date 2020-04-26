@@ -4,9 +4,7 @@
       <div class="columns">
         <div class="column">
           <h1 class="title">Contact</h1>
-          <h2 class="subtitle">
-            You can find me here
-          </h2>
+          <h2 class="subtitle">You can find me at</h2>
         </div>
       </div>
       <div class="columns m-t-md">
