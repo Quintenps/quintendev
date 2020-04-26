@@ -3,9 +3,9 @@
     <div class="container">
       <nav class="navbar section">
         <div class="navbar-brand">
-          <p class="logo navbar-item">
-            QUINTENPEELS
-          </p>
+          <nuxt-link to="/" class="logo navbar-item">
+            QUINTEN PEELS
+          </nuxt-link>
           <div
             class="navbar-burger"
             :class="{ 'is-active': showNav }"
