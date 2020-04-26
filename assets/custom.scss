@@ -1,0 +1,19 @@
+$primary-color: #525B56;
+$secondary-color: #132226;
+$third-color: #A4978E;
+$link: $third-color;
+
+body {
+  font-family: 'Barlow', sans-serif;
+}
+.logo {
+  color: $secondary-color;
+  font-weight: 700;
+}
+.line-block {
+  display: block;
+  width: 40px;
+  background-color: $primary-color;
+  height: 2px;
+  margin: 20px 0 20px;
+}
