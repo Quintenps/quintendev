@@ -36,7 +36,6 @@
             <li>PHP (Laravel)</li>
             <li>Python</li>
             <li>VueJS</li>
-            <li>Magento 2</li>
             <li>Docker / Kubernetes</li>
           </ul>
         </div>
