@@ -45,28 +45,28 @@
           <div class="line-block"></div>
           <ul>
             <li>
-              Desktop: Windows
-              <span
-                class="tag is-info"
-                style="cursor:pointer;"
+              Desktop:
+              <a
+                href="#"
+                style="text-decoration:underline; cursor:pointer;"
                 @click="
                   showModal = true
                   modalData = computerSpecs.computer
                 "
-                >SPECS</span
+                >Windows</a
               >
             </li>
             <li>Phone: Xiaomi mi 9t</li>
             <li>
-              Homeserver: Optiplex 3050 Micro
-              <span
-                class="tag is-info"
-                style="cursor:pointer;"
+              Homeserver:
+              <a
+                href="#"
+                style="text-decoration:underline; cursor:pointer"
                 @click="
                   showModal = true
                   modalData = computerSpecs.optiplex
                 "
-                >SPECS</span
+                >Optiplex 3050 Micro</a
               >
             </li>
             <li>
