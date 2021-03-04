@@ -20,7 +20,9 @@ const routes = [
     path: '/contact',
     name: 'Contact',
     component: () => import(/* webpackChunkName: "about" */ '../views/Contact.vue')
-  }
+  },
+  { path: '/404', component: () => import(/* webpackChunkName: "about" */ '../views/NotFound.vue') },  
+  { path: '*', redirect: '/404' }, 
 ]
 
 const router = new VueRouter({
