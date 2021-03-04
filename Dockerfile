@@ -1,19 +1,13 @@
-FROM node:11.13.0-alpine
-
-RUN mkdir -p /usr/src/nuxt-app
-WORKDIR /usr/src/nuxt-app
-
-RUN apk update && apk upgrade
-RUN apk add git
-
-COPY . /usr/src/nuxt-app/
+# build stage
+FROM node:lts-alpine as build-stage
+WORKDIR /app
+COPY package*.json ./
 RUN npm install
-RUN npm rebuild node-sass
+COPY . .
 RUN npm run build
 
-EXPOSE 5000
-
-ENV NUXT_HOST=0.0.0.0
-ENV NUXT_PORT=5000
-
-CMD [ "npm", "start" ]
+# production stage
+FROM nginx:stable-alpine as production-stage
+COPY --from=build-stage /app/dist /usr/share/nginx/html
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]

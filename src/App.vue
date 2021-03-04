@@ -1,11 +1,9 @@
 <template>
-  <div>
+  <div id="app" class="">
     <div class="container">
       <nav class="navbar section">
         <div class="navbar-brand">
-          <nuxt-link to="/" class="logo navbar-item">
-            QUINTEN PEELS
-          </nuxt-link>
+          <p class="logo navbar-item">Quinten Peels</p>
           <div
             class="navbar-burger"
             :class="{ 'is-active': showNav }"
@@ -18,31 +16,33 @@
         </div>
         <div class="navbar-menu" :class="{ 'is-active': showNav }">
           <div class="navbar-end is-lowercase">
-            <nuxt-link
+            <router-link
               to="/"
               class="navbar-item"
               @click.native="showNav = !showNav"
             >
               About
-            </nuxt-link>
-            <nuxt-link
+            </router-link>
+            <router-link
               to="work"
               class="navbar-item"
               @click.native="showNav = !showNav"
             >
               Work
-            </nuxt-link>
-            <nuxt-link
+            </router-link>
+            <router-link
               to="contact"
               class="navbar-item"
               @click.native="showNav = !showNav"
             >
               Contact
-            </nuxt-link>
+            </router-link>
           </div>
         </div>
       </nav>
-      <nuxt />
+      <div class="section">
+        <router-view />
+      </div>
     </div>
   </div>
 </template>

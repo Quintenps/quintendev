@@ -1,3 +1,7 @@
+@import '~bulma';
+@import './spacing.scss';
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
 $primary-color: #5aa2e4;
 $secondary-color: #292929;
 $third-color: #535353;
@@ -9,12 +13,27 @@ body {
 }
 
 .logo {
-  color: $primary-color;
-  font-weight: 700;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+h1,
+h2 {
+  line-height: 30pt;
+}
+
+h2 {
+  font-size: 18pt;
 }
 
 h4 {
   color: $secondary-color;
+  font-size: 14pt;
+}
+
+li {
+  line-height: 25pt;
 }
 
 .line-block {
@@ -23,9 +42,4 @@ h4 {
   background-color: $third-color;
   height: 2px;
   margin: 20px 0 20px;
-}
-
-.__nuxt-error-page {
-  background: none !important;
-  position: relative !important;
 }
