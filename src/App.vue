@@ -3,7 +3,7 @@
     <div class="container">
       <nav class="navbar section">
         <div class="navbar-brand">
-          <p class="logo navbar-item">Quinten Peels</p>
+          <p class="logo navbar-item">bluedog</p>
           <div
             class="navbar-burger"
             :class="{ 'is-active': showNav }"

@@ -11,20 +11,38 @@
         <h4>💼 Past experiences</h4>
         <div class="line-block"></div>
         <ul>
+          <li>SantosRP - full stack developer</li>
           <li>
-            Magento developer at
-            <a target="_blank" href="//itonomy.nl">Itonomy</a>
+            <a
+              target="_blank"
+              href="https://web.archive.org/web/20140208043736/http://www.hackcommunity.com/"
+              >HackCommunity.com</a
+            >
+            - owner
           </li>
           <li>
-            PHP Developer at <a target="_blank" href="//devmob.com">DevMob</a>
+            <a href="//monolithservers.com/forums/" target="_blank"
+              >Monolithservers</a
+            >
+            - backend webdevelopment
+          </li>
+          <li><a href="//webify.pw" target="_blank">Webify</a></li>
+          <li>
+            Reddit (
+            <a
+              target="_blank"
+              href="https://www.reddit.com/r/gaming/comments/7yw7zz/this_guy_wtf_manhunt_sick_steam/"
+              >#1</a
+            >,
+            <a
+              target="_blank"
+              href="https://www.reddit.com/r/gaming/comments/3n2e44/came_across_a_guy_on_steam_who_has_over_5200"
+              >#2</a
+            >)
           </li>
           <li>
-            PHP Developer at
-            <a target="_blank" href="//cargosnap.com">CargoSnap</a>
-          </li>
-          <li>
-            Magento developer at
-            <a target="_blank" href="//experius.nl">Experius</a>
+            9Gag (
+            <a target="_blank" href="https://9gag.com/gag/aZg2q9Q">#1</a>)
           </li>
         </ul>
       </div>
