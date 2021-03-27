@@ -9,9 +9,11 @@
     <div class="columns m-t-md">
       <div class="column">
         <ul>
-          <li><a target="_blank" href="//github.com/quintenps">Github</a></li>
+          <li>Discord: bluedog 🐕#8613</li>
+          <li>Battlenet: bluedog#21410</li>
           <li>
-            <a target="_blank" href="https://twitter.com/quintenps">Twitter</a>
+            Steam:
+            <a target="_blank" href="//steamcommunity.com/id/187z">187z</a>
           </li>
         </ul>
       </div>
